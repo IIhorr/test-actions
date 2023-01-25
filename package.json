@@ -1,0 +1,19 @@
+{
+  "name": "git-actions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Hi Igor"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/IIhorr/test-actions.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IIhorr/test-actions/issues"
+  },
+  "homepage": "https://github.com/IIhorr/test-actions#readme"
+}
