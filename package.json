@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Hi Igor"
+    "test": "echo \"Hi Igor",
+    "lint": "npx eslint app.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/IIhorr/test-actions/issues"
   },
-  "homepage": "https://github.com/IIhorr/test-actions#readme"
+  "homepage": "https://github.com/IIhorr/test-actions#readme",
+  "dependencies": {
+    "eslint-config-standard": "^17.0.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.49.0",
+    "@typescript-eslint/parser": "^5.49.0",
+    "eslint": "^8.32.0"
+  }
 }
