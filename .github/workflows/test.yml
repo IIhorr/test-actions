@@ -1,8 +1,12 @@
-name: Test Actions
+name: Demo Workflow
 on: workflow_dispatch
 jobs:
   print:
-    runs-on: windows-latest
-    steps: 
+    runs-on: ubuntu-latest
+    steps:
       - name: Print to console
-        run: echo Hellow world
+        run: echo Hello GH Actions!
+      - name: Print a few lines
+        run: |
+          echo First line
+          echo Second Line
